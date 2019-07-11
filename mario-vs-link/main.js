@@ -1,6 +1,6 @@
 // Mario Vs Link
 
-"use Strict";
+"use strict";
 
 // Functions
 
