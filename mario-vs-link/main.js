@@ -65,5 +65,5 @@ function lib() {
     //Final Result is the input processed into a paragraph
 
     document.getElementById("lib").innerHTML =
-        "Once upon a time, a Mario with a " + first + " crashed into a Link dealing massive damage " + "which enraged Link forcing him to whip out his " + second + " dealing an insane amount of damage " + " causing the Great War between The Mushroom Kingdom and Hyrule to break out " + " the heroes charged at each other for one last stand, screaming " + third + " their weapons clashed and clashed until they lost consciousness ";
+        "Once upon a time, a Mario with a " + first + "crashed into a Link dealing massive damage " + "which enraged Link forcing him to whip out his " + second + " dealing an insane amount of damage " + " causing the Great War between The Mushroom Kingdom and Hyrule to break out! " + "The heroes charged at each other for one last stand, screaming " + third + "their weapons clashed and clashed until they lost consciousness ";
 }
