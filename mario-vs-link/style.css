@@ -1,0 +1,98 @@
+html {
+    background-image: url(images/mandl.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    width: 800px;
+    padding: 30px 75px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(220, 220, 220, 0.8);
+}
+
+
+img {
+    width: 500px;
+}
+
+button {
+    padding: 5px 15px;
+    margin: 0px 10px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+button:first-child {
+    background-color: red;
+    border-radius: 15px;
+}
+
+button:nth-child(2) {
+    background-color: green;
+    border-radius: 15px;
+}
+
+#btn-atk,
+#btn-start {
+    background-color: silver !important;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+}
+
+#btn-atk,
+#btn-start :hover {
+    background-color: silver;
+}
+
+
+ul {
+    text-align: left;
+    margin-left: 200px;
+}
+
+li {
+    padding: 10px 0px;
+}
+
+h1:first-child,
+h1+h3 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+table {
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 10px;
+}
+
+td>span {
+    font-size: 24px;
+    color: purple;
+}
+
+p+p {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: 2px dotted silver;
+}
